@@ -1,0 +1,167 @@
+:root {
+   --primary-text-color:#2E2F42;
+   --secondbery-text-color:#434455;
+   --brend-color:#4D5AE5;
+   --white-color: #FFFFFF;
+   --primery-bg-color:#2E2F42;
+   --secondbery-bg-color:#F4F4FD;
+   --footer-text-color:#E7E9FC;
+   --hover-active-color:#404BBF;
+   --hover-card-color:#F4F4FD;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-size: 16px;
+}
+/* шапка сайту */
+.logo {
+    font-family:"Raleway", sans-serif;
+    color:var(--brend-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+   
+}
+.logo-span {
+color:var(--primary-text-color);
+}
+.nav-link {
+    text-decoration: none;
+    color: var(--primary-text-color) ;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--hover-active-color);
+}
+
+.nav-link.current {
+color: var(--hover-active-color);
+}
+
+
+.mail-tell {
+    color: var(--secondbery-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.mail-tell:hover,
+.mail-tell:focus {
+    color: var(--hover-active-color);
+}
+.list {
+    list-style: none;
+}
+/* герой сайту */
+.hero {
+    background-color: var(--primery-bg-color);
+}
+.hero-title {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.button {
+    font-family: inherit;
+    cursor: pointer;
+    background-color: var(--brend-color);
+    color: var(--white-color);
+}
+.button:hover,
+.button:focus {
+    background-color: var(--hover-active-color);
+}
+/* наши переваги */
+.advantages-title {
+      
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.advantages-text {
+    color: var(--secondbery-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* Що ми будемо робити  */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* наша команда */
+.name-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.post-team {
+    color: var(--secondbery-text-color);
+    line-height:1.5;
+    letter-spacing: 0.02em;
+}
+/* підвал */
+.footer {
+    background-color: var(--primery-bg-color);
+}
+.logo-footer {
+    color: var(--white-color);
+}
+.footer-text {
+    color: var(--footer-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+/* Портфоліо */
+
+
+.nav-link-porfolio:active{
+    color: var(--hover-active-color);
+}
+.porfolio-button {
+    font-family: inherit;
+    cursor: pointer;
+    color: var(--brend-color);
+    background-color: var(--secondbery-bg-color);
+}
+.porfolio-button:hover,
+.porfolio-button:focus {
+    color: var(--white-color);
+    background-color: var(--hover-active-color);
+}
+.portfolio-link {
+    text-decoration: none;
+}
+.portfolio-title{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+   
+}
+.portfolio-text {
+    color: var(--secondbery-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
