@@ -15,6 +15,8 @@ body {
     color: var(--primary-text-color);
     font-size: 16px;
 }
+
+
 /* шапка сайту */
 .logo {
     font-family:"Raleway", sans-serif;
@@ -25,6 +27,14 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
    
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1158px;
+
+
+    outline: 5px solid red;
 }
 .logo-span {
 color:var(--primary-text-color);
@@ -58,20 +68,29 @@ color: var(--hover-active-color);
 }
 .list {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 /* герой сайту */
 .hero {
+     text-align: center;
     background-color: var(--primery-bg-color);
 }
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 48px;
+
     color: var(--white-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
+   
     letter-spacing: 0.02em;
 }
 .button {
+    padding: 16px 32px;
+    border-radius: 4px;
+
     font-family: inherit;
     cursor: pointer;
     background-color: var(--brend-color);
@@ -83,6 +102,9 @@ color: var(--hover-active-color);
 }
 /* наши переваги */
 .advantages-title {
+
+    margin-bottom: 8px;
+    margin-top: 0;
       
     font-weight: 500;
     font-size: 20px;
@@ -91,12 +113,18 @@ color: var(--hover-active-color);
 }
 
 .advantages-text {
+    margin-top: 0;
+    margin-bottom: 0;
+
     color: var(--secondbery-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /* Що ми будемо робити  */
 .section-title {
+    margin-top: 0;
+    margin-bottom: 72px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -107,12 +135,18 @@ color: var(--hover-active-color);
 
 /* наша команда */
 .name-team {
+    margin-top: 0;
+    margin-bottom: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .post-team {
+    margin-bottom: 0;
+    margin-top: 0;
+     
     color: var(--secondbery-text-color);
     line-height:1.5;
     letter-spacing: 0.02em;
@@ -125,6 +159,10 @@ color: var(--hover-active-color);
     color: var(--white-color);
 }
 .footer-text {
+
+    margin-top: 16px;
+    margin-left: 0;
+
     color: var(--footer-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
