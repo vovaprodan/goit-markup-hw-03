@@ -19,8 +19,30 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+.list {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    outline:5 solid blue;
+}
 /* шапка сайту */
+.nav-header {
+    align-items: center;
+    display: flex;
+}
+.nav {
+    align-items: center;
+    display: flex;
+}
 .logo {
     font-family:"Raleway", sans-serif;
     color:var(--brend-color);
@@ -31,18 +53,24 @@ body {
     text-decoration: none;
    
 }
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    width: 1158px;    
 
-
-    
-}
 .logo-span {
 color:var(--primary-text-color);
 }
+
+.nav-list {
+    margin-left: 76px;
+    display: flex;
+}
+.nav-list .item + .item {
+    margin-left: 40px;
+}
+
 .nav-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
     text-decoration: none;
     color: var(--primary-text-color) ;
     font-weight: 500;
@@ -57,9 +85,19 @@ color:var(--primary-text-color);
 .nav-link.current {
 color: var(--hover-active-color);
 }
+.address {
+    margin-left: auto;
+}
 
+.address-list {
+    display: flex;
+}
+.address-list .item + .item {
+    margin-left: 40px;
+}
 
 .mail-tell {
+    font-style: normal;
     color: var(--secondbery-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -69,11 +107,7 @@ color: var(--hover-active-color);
 .mail-tell:focus {
     color: var(--hover-active-color);
 }
-.list {
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 /* герой сайту */
 .hero {
      text-align: center;
