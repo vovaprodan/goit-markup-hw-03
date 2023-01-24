@@ -34,6 +34,18 @@ body {
     
     outline:5 solid blue;
 }
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /* шапка сайту */
 .nav-header {
     align-items: center;
@@ -193,13 +205,18 @@ color: var(--hover-active-color);
 }
 /* підвал */
 .footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+
+
     background-color: var(--primery-bg-color);
 }
 .logo-footer {
     color: var(--white-color);
 }
 .footer-text {
-
+   
     margin-top: 16px;
     margin-left: 0;
 
@@ -215,21 +232,65 @@ color: var(--hover-active-color);
 .nav-link-porfolio:active{
     color: var(--hover-active-color);
 }
+.button-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+    margin-bottom: 72px;
+
+}
 .porfolio-button {
+    padding: 12px 24px;
+    border-radius: 4px;
+    /* margin-right: 24px; */
+  
+
     font-family: inherit;
     cursor: pointer;
     color: var(--brend-color);
     background-color: var(--secondbery-bg-color);
 }
+.button-container .item + .item {
+    margin-left: 24px;
+}
+
 .porfolio-button:hover,
 .porfolio-button:focus {
     color: var(--white-color);
     background-color: var(--hover-active-color);
 }
+.portfolio-container {
+    width: 1158px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;   
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.portfolio-list {
+    margin-bottom: 48px;
+    margin-right: 24px;
+    width: 360px;
+}
+.portfolio-list:nth-child(3n + 3){
+    margin-right: 0;
+}
+.portfolio-list:nth-last-child(-n + 3){
+    margin-bottom: 0;
+}
+
 .portfolio-link {
     text-decoration: none;
 }
 .portfolio-title{
+
+    margin-top: 32px;
+    margin-bottom: 8px;
+
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
@@ -238,6 +299,10 @@ color: var(--hover-active-color);
    
 }
 .portfolio-text {
+    margin-top: 0;
+    margin-bottom: 32px;
+
+
     color: var(--secondbery-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
