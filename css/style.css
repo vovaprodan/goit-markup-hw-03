@@ -244,7 +244,6 @@ color: var(--hover-active-color);
 .porfolio-button {
     padding: 12px 24px;
     border-radius: 4px;
-    /* margin-right: 24px; */
   
 
     font-family: inherit;
@@ -287,7 +286,7 @@ color: var(--hover-active-color);
     text-decoration: none;
 }
 .portfolio-title{
-
+    margin-left: 16px;
     margin-top: 32px;
     margin-bottom: 8px;
 
@@ -299,6 +298,7 @@ color: var(--hover-active-color);
    
 }
 .portfolio-text {
+    margin-left: 16px;
     margin-top: 0;
     margin-bottom: 32px;
 
