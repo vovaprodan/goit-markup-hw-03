@@ -122,8 +122,14 @@ color: var(--hover-active-color);
 
 /* герой сайту */
 .hero {
+    padding-top: 180px;
+    padding-bottom: 196px;
+
      text-align: center;
     background-color: var(--primery-bg-color);
+}
+.container-hero {
+   padding-top: 38px;
 }
 .hero-title {
     margin-top: 0;
@@ -243,6 +249,8 @@ color: var(--hover-active-color);
     background-color: var(--primery-bg-color);
 }
 .container-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
     width: 1158px;
@@ -311,8 +319,22 @@ color: var(--hover-active-color);
     margin-bottom: 120px;
 
 }
+.portfolio-border{
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: var(--footer-text-color);
+    
+       
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--footer-text-color);
+    
+        
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color:var(--footer-text-color);
+}
 .portfolio-list {
-    border: 1px solid #E7E9FC;
     margin-bottom: 48px;
     margin-right: 24px;
     width: 360px;
@@ -330,8 +352,9 @@ color: var(--hover-active-color);
 }
 .portfolio-title{
     margin-left: 16px;
-    margin-top: 32px;
+    margin-top: 0;
     margin-bottom: 8px;
+    padding-top: 32px;
 
     color: var(--primary-text-color);
     font-weight: 500;
