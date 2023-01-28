@@ -126,10 +126,17 @@ color: var(--hover-active-color);
 
 /* герой сайту */
 .hero {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 600px;
+    background-image: url(../images/people-office.jpg);
+
+
     padding-top: 180px;
     padding-bottom: 196px;
 
-     text-align: center;
+    text-align: center;
     background-color: var(--primery-bg-color);
 }
 .container-hero {
