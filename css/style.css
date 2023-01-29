@@ -285,10 +285,37 @@ margin-right: 24px;
 }
 .post-team {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 8px;
     color: var(--secondbery-text-color);
     line-height:1.5;
     letter-spacing: 0.02em;
+}
+
+ .list-icon {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+ }
+.list-icon>.item {
+    margin-right: 24px;
+}
+
+.list-icon>.item:last-child {
+    margin-right: 0;
+}
+
+
+.link-icon {
+    width: 40px;
+    height: 40px;
+}
+.list-customers {
+    display: flex;
+}
+.icon {
+    width: 104px;
+    height: 56px;
+    margin-right: 24px;
 }
 
 /* підвал */
