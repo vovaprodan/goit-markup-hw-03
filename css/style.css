@@ -128,10 +128,16 @@ color: var(--hover-active-color);
 .hero {
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
+    max-width: 1440px;
     height: 600px;
-    background-image: url(../images/people-office.jpg);
-
+    background-image: linear-gradient(
+         to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+    
+    
 
     padding-top: 180px;
     padding-bottom: 196px;
@@ -182,10 +188,32 @@ color: var(--hover-active-color);
     margin-right: 0;
 }
 
+.advantages-item::before {
+    content: "";
+    display:block;
+    height: 112px;
+    background-color: var(--hover-card-color);
+    background-repeat:no-repeat;
+    background-size: 64px, 64px;
+    background-position: center;
+}
+.icon-antenna::before {
+    background-image: url(../images/antenna.svg);
+}
+.icon-clock::before {
+    background-image: url(../images/clock.svg);
+}
+.icon-diagram::before {
+    background-image: url(../images/diagram.svg);
+}
+.icon-astronaut::before {
+    background-image: url(../images/astronaut.svg);
+}
+
 .advantages-title {
 
     margin-bottom: 8px;
-    margin-top: 0;
+    margin-top: 8px;
       
     font-weight: 500;
     font-size: 20px;
