@@ -188,7 +188,7 @@ color: var(--hover-active-color);
     margin-right: 0;
 }
 
-.advantages-item::before {
+/* .advantages-item::before {
     content: "";
     display:block;
     height: 112px;
@@ -208,7 +208,7 @@ color: var(--hover-active-color);
 }
 .icon-astronaut::before {
     background-image: url(../images/astronaut.svg);
-}
+} */
 
 .advantages-title {
 
@@ -294,7 +294,7 @@ margin-right: 24px;
  .list-icon {
     display: flex;
     justify-content: center;
-        align-items: center;
+    align-items: center;
  }
 .list-icon>.item {
     margin-right: 24px;
@@ -306,16 +306,33 @@ margin-right: 24px;
 
 
 .link-icon {
-    width: 40px;
-    height: 40px;
+    width: 16px;
+    height: 16px;
 }
 .list-customers {
     display: flex;
 }
+.list-customers>.item {
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    margin-right: 24px;
+    border-radius: 3px;
+}
+
+.list-customers>.item:last-child {
+    margin-right: 0;
+}
+
+
+.link-customers {
+    display: flex;
+    padding: 16px 32px;
+    
+}
 .icon {
     width: 104px;
     height: 56px;
-    margin-right: 24px;
 }
 
 /* підвал */
