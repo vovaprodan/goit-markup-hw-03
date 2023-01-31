@@ -8,6 +8,7 @@
    --footer-text-color:#E7E9FC;
    --hover-active-color:#404BBF;
    --hover-card-color:#F4F4FD;
+   --social-bg-color:#31D0AA;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -188,6 +189,18 @@ color: var(--hover-active-color);
     margin-right: 0;
 }
 
+.advantages-span {
+    display: block;
+    padding: 24px 100px;
+    height: 112px;
+    display: block;
+    background-color: var(--hover-card-color);
+}
+.advantages-icon {
+    width: 64px;
+    height: 64px;
+}
+
 /* .advantages-item::before {
     content: "";
     display:block;
@@ -297,15 +310,22 @@ margin-right: 24px;
     align-items: center;
  }
 .list-icon>.item {
+    width: 40px;
+    height: 40px;
     margin-right: 24px;
+
+    border-radius: 50%;
+    background-color: var(--brend-color);
 }
 
 .list-icon>.item:last-child {
     margin-right: 0;
 }
-
+.team-social {
+}
 
 .link-icon {
+    margin: 12px;
     width: 16px;
     height: 16px;
 }
@@ -342,6 +362,7 @@ margin-right: 24px;
     background-color: var(--primery-bg-color);
 }
 .container-footer {
+    display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
     margin-left: auto;
@@ -350,6 +371,9 @@ margin-right: 24px;
     padding-left: 15px;
     padding-right: 15px;
 
+}
+.container-logo-text {
+    margin-right: 120px;
 }
 
 .logo-footer {
@@ -364,6 +388,51 @@ margin-right: 24px;
     color: var(--footer-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.container-social {
+
+}
+
+.social {
+    display:block;
+    margin-bottom: 16px;
+
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+
+.footer-icon {
+    display: flex;
+}
+.footer-icon > .item {
+    width: 40px;
+    height: 40px;
+    margin-right: 24px;
+    
+    border-radius: 50%;
+    background-color:var(--secondbery-text-color);
+}
+
+.footer-icon>.item:hover,
+.footer-icon>.item:focus {
+    background-color: var(--social-bg-color);
+}
+
+.footer-icon > .item:last-child {
+    margin-right: 0;
+}
+
+.social-link {
+display: block;
+padding: 8px;
+}
+.social-icon {
+    width: 24px;
+    height: 24px;
 }
 
 
@@ -459,5 +528,5 @@ margin-right: 24px;
     color: var(--secondbery-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
 }
+
